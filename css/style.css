@@ -67,7 +67,7 @@ img{
 /* CONTAINER */
 .container{
     width: 100%;
-    max-width: 1300px;
+    max-width: 1180px;
     padding-left: 20px;
     padding-right: 20px;
     margin-right: auto;
@@ -80,6 +80,7 @@ img{
 }
 /* BUTTON */
 .button {
+    display: inline-block;
     padding: 14px 30px;
     background-color: var(--accent-color);
     border-radius: 5px;
@@ -179,6 +180,84 @@ margin-bottom: 50px;
 }
 .hero-btn:not(:last-child) {
     margin-right: 30px;
+}
+
+/* FEATURES */
+.features {
+    padding-top: 106px;
+}
+.features-heading {
+    margin-bottom: 44px;
+    text-align: center;
+}
+.sub-title {
+    margin: 0;
+    margin-bottom: 7px;
+    font-family:"Roboto", "Arial", serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--accent-color);
+}
+.features-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.features-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    text-align: center;
+}
+.features-item-img-wrapper {
+    display: flex;
+    margin-bottom: 33px;
+    padding: 22px;
+    border-radius: 50%;
+    background-color: rgba(143, 166, 50, 0.1);
+}
+.features-item-img{
+    flex-shrink: 0;
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+}
+.features-item-heading {
+    margin-bottom: 15px;
+    font-size: 25px;
+    line-height: 24px;
+}
+
+/* ABOUT US */
+.about-us {
+    padding-top: 123px;
+    padding-bottom: 115px;
+}
+.about-us-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-us-img {
+    flex-shrink: 0;
+    display: inline-block;
+    width: 555px;
+    height: 500px;
+    object-fit: contain;
+}
+.about-us-info {
+    width: 100%;
+    max-width: 488px;
+}
+.about-us-heading {
+    margin-bottom: 30px;
+}
+.about-us-text {
+    margin-bottom: 29px;
 }
 
 /* RETINA CSS */
