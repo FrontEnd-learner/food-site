@@ -9,8 +9,8 @@
 /* FONTS */
 @font-face {
     font-family: "Philosopher";
-    src: url("Philosopher-Bold.woff2") format("woff2"),
-        url("Philosopher-Bold.woff") format("woff");
+    src: url("../fonts/") format("woff2"),
+        url("../fonts/Philosopher-Bold.woff") format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: "Roboto";
-    src: url("Roboto-Medium.woff2") format("woff2"),
-        url("Roboto-Medium.woff") format("woff");
+    src: url("../fonts/Roboto-Medium.woff2") format("woff2"),
+        url("../fonts/Roboto-Medium.woff") format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -27,8 +27,8 @@
 
 @font-face {
     font-family: "Roboto";
-    src: url("Roboto-Regular.woff2") format("woff2"),
-        url("Roboto-Regular.woff") format("woff");
+    src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+        url("../fonts/Roboto-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -101,7 +101,7 @@ img{
 
 /* HEADING */
 .heading{
-    font-family: "Philosopher", "Roboto", sans-serif;
+    font-family: var(--heading-font);
     font-size: 31px;
     line-height: 40px;
     font-weight: 700;
