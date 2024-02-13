@@ -106,6 +106,16 @@ img{
     line-height: 40px;
     font-weight: 700;
 }
+.sub-title {
+    margin: 0;
+    margin-bottom: 7px;
+    font-family:"Roboto", "Arial", serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--accent-color);
+}
 .text {
     opacity: 0.7;
 }
@@ -190,16 +200,6 @@ margin-bottom: 50px;
     margin-bottom: 44px;
     text-align: center;
 }
-.sub-title {
-    margin: 0;
-    margin-bottom: 7px;
-    font-family:"Roboto", "Arial", serif;
-    font-size: 16px;
-    line-height: 18px;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: var(--accent-color);
-}
 .features-list {
     display: flex;
     align-items: center;
@@ -258,6 +258,66 @@ margin-bottom: 50px;
 }
 .about-us-text {
     margin-bottom: 29px;
+}
+
+/* MENU */
+.menu {
+    padding-bottom: 90px;
+}
+.menu-content {
+    margin-bottom: 60px;
+    text-align: center;
+}
+.menu-heading {
+    margin-bottom: 25px;
+}
+.sub-title {
+    margin-bottom: 7px;
+}
+.menu-text {
+    font-size: 16px;
+    line-height: 24px;
+}
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menu-item {
+    width: 360px;
+    margin-bottom: 30px;
+    border-radius: 80px 10px 10px ;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.menu-item-img {
+    display: inline-block;
+    width: 360px;
+    height: 264px;
+    border-radius: 80px 10px 80px 0px;
+}
+.menu-item-info {
+    padding: 21px 25px;
+}
+.menu-item-heading-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-item-info-heading {
+    font-size: 25px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.menu-item-info-text {
+    margin-bottom: 20px;
+}
+.menu-item-info-plus {
+    display: inline-block;
+    margin-right: 160px;
+    border-radius: 5px;
+    padding: 9px 12px;
+    background-color: #DC780B;
+    color: #fff;
+    font-size: 25px;
 }
 
 /* RETINA CSS */
