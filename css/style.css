@@ -84,7 +84,7 @@ img{
     padding: 14px 30px;
     background-color: var(--accent-color);
     border-radius: 5px;
-    border: 2px solid var(--accent-color);
+    border: 1.5px solid rgba(220, 120, 11, 0.2);
     font-size: 16px;
     line-height: 19px;
     color: #fff;
@@ -262,7 +262,7 @@ margin-bottom: 50px;
 
 /* MENU */
 .menu {
-    padding-bottom: 90px;
+    padding-bottom: 120px;
 }
 .menu-content {
     margin-bottom: 60px;
@@ -282,6 +282,7 @@ margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 .menu-item {
     width: 360px;
@@ -318,6 +319,73 @@ margin-bottom: 50px;
     background-color: #DC780B;
     color: #fff;
     font-size: 25px;
+}
+.menu-button{
+    text-align: center;
+}
+
+/* TAKE AWAY */
+.take-away-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.take-away-content {
+    width: 555px;
+    padding-top: 114px;
+    padding-bottom: 129px;
+    /* background-color: rgba(251, 241, 231, 1); */
+}
+.take-away-heading {
+    margin-bottom: 29px;
+}
+.take-away-text {
+    margin-bottom: 39px;
+}
+.take-away-apps {
+    display: flex;
+}
+.take-away-button:not(:last-child){
+    margin-right: 30px;
+}
+.take-away-button {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    border: 1.5px solid rgba(21, 12, 1, 0.2);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #000;
+    transition: all 0.3s ease;
+}
+.app-store::before{
+    margin-right: 10px;
+    width: 26px;
+    height: 26px;
+    background-image: url(../img/apple-img.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
+.play-market::before{
+    margin-right: 10px;
+    width: 26px;
+    height: 26px;
+    background-image: url(../img/play-market-img.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
+.take-away-button:hover{
+    background-color: #150C01;
+    color: #fff;
+}
+.take-away-img {
+    display: inline-block;
+    width: 324px;
+    height: 651px;
 }
 
 /* RETINA CSS */
