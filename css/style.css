@@ -441,6 +441,44 @@ margin-bottom: 50px;
 
 }
 
+/* CONTACT */
+.contact {
+    padding-top: 115px;
+    padding-bottom: 117px;
+    background-color: rgba(220, 120, 11, 0.1);
+    text-align: center;
+
+}
+.contact-heading {
+    margin-bottom: 46px;
+}
+.contact-form {
+    display: flex;
+    justify-content: center;
+
+}
+.contact-input-text {
+    width: 600px;
+    padding: 20px;
+    border: none;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.contact-button {
+    padding: 20px 60px;
+    margin-left: -10px;
+    font-size: 18px;
+    line-height: 40px;
+}
+.contact-button:hover{
+    background-color: #DC780B;
+    color: #fff;
+    opacity: 0.8;
+}
+.contact-button:active{
+    opacity: 0.6;
+}
+
 /* RETINA CSS */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
